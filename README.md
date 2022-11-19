@@ -13,6 +13,9 @@ The above shows an initialized cluster on the MongoDB atlas platform. This is ve
 # Server - Connecting to Database
 [![Screenshot-2022-11-19-124647.png](https://i.postimg.cc/PxN2xMNb/Screenshot-2022-11-19-124647.png)](https://postimg.cc/tZQhvW37)
 
+# Server - Database Schema
+[![Screenshot-2022-11-19-125238.png](https://i.postimg.cc/wBQSJF6S/Screenshot-2022-11-19-125238.png)](https://postimg.cc/R3qsx7JR)
+
 # Server - Routes and Controllers
 Routes used:
 ```
@@ -30,6 +33,8 @@ Note
 async  await
 ``` 
 are used as database accesses are asyncronous and we cannot guarantee timing
+
+
 
 
 
