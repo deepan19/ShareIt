@@ -13,6 +13,17 @@ The above shows an initialized cluster on the MongoDB atlas platform. This is ve
 # Server - Connecting to Database
 [![Screenshot-2022-11-19-124647.png](https://i.postimg.cc/PxN2xMNb/Screenshot-2022-11-19-124647.png)](https://postimg.cc/tZQhvW37)
 
+# Server - Routes and Controllers
+Routes used:
+```
+router.get('/', getPosts)
+router.post('/', createPost)
+router.patch('/:id', updatePost)
+```
+The above use the CRUD model.
+
+Controllers corresponding to the routes:
+[![Screenshot-2022-11-19-124959.png](https://i.postimg.cc/VLs5bHzc/Screenshot-2022-11-19-124959.png)](https://postimg.cc/8s3T24Fy)
 
 
 
