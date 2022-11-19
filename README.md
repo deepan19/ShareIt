@@ -34,6 +34,33 @@ async  await
 ``` 
 are used as database accesses are asyncronous and we cannot guarantee timing
 
+# Client - Directory/Scope structure
+```bash
+.
+├── App.js      
+├── actions     
+│   └── posts.js
+├── api
+│   └── index.js
+├── components       
+│   ├── Form
+│   │   ├── Form.js  
+│   │   └── styles.js
+│   └── Posts        
+│       ├── Post     
+│       ├── Posts.js 
+│       └── styles.js
+├── images
+│   └── ShareIt.png  
+├── index.css        
+├── index.js
+├── reducers
+│   ├── index.js     
+│   └── posts.js     
+└── styles.js
+
+```
+Structuring this way is done due to redux. By following the actions, reducers, api, and components structure, adding additional features are straighforward. This promotes scalability
 
 
 
