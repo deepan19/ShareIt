@@ -63,8 +63,12 @@ are used as database accesses are asyncronous and we cannot guarantee timing
 Structuring this way is done due to redux. By following the actions, reducers, api, and components structure, adding additional features are straighforward. This promotes scalability
 
 #Client - Actions and Reducers
-reducers [![reducer.png](https://i.postimg.cc/Pr4H1t26/reducer.png)](https://postimg.cc/N55ZcwhT)
-actions [![actions.png](https://i.postimg.cc/W1YPf5Rg/actions.png)](https://postimg.cc/PCDcCz55)
+
+reducers 
+[![reducer.png](https://i.postimg.cc/Pr4H1t26/reducer.png)](https://postimg.cc/N55ZcwhT)
+
+actions 
+[![actions.png](https://i.postimg.cc/W1YPf5Rg/actions.png)](https://postimg.cc/PCDcCz55)
 
 
 
