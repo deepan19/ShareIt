@@ -24,8 +24,11 @@ The above use the CRUD model.
 
 Controllers corresponding to the routes:
 [![Screenshot-2022-11-19-124959.png](https://i.postimg.cc/VLs5bHzc/Screenshot-2022-11-19-124959.png)](https://postimg.cc/8s3T24Fy)
+
 Note
-```async  await``` 
+```
+async  await
+``` 
 are used as database accesses are asyncronous and we cannot guarantee timing
 
 
